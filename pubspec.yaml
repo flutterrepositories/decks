@@ -1,0 +1,31 @@
+name: decks
+description: Dart package which manages the authentication domain.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  #flutter
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_signin_button: ^2.0.0
+  flutter_svg: ^1.0.3
+  rxdart: ^0.27.3
+
+  #ui helpers
+  cloud_firestore: ^3.1.15
+
+  #firebase
+  firebase_auth: ^3.3.18
+  
+  ui:
+    git:
+      url: https://github.com/flutterrepositories/ui.git
+      ref: main # branch name
+  #utils
+  equatable: ^2.0.0
+  meta: ^1.1.8
+
